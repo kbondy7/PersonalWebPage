@@ -25,6 +25,6 @@ function goTo(id) {
     window.location.href = "https://www.kieranbondy.com/Abilities.html";
   }
   if(id == "N") {
-    window.location.href = "https://www.kieranbondy.com/NotableProject.html";
+    window.location.href = "https://www.kieranbondy.com/NotableProjects.html";
   }
 }
