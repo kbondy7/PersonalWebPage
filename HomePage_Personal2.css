@@ -1,0 +1,86 @@
+body {
+  background-color: #fc8b00;
+  background-image: url("Assets/df.png");
+  background-size: cover;
+}
+
+.introTxt {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.container {
+  margin-top: 75;
+}
+.letterImg {
+  display: inline-block;
+  height: 200;
+  cursor: pointer;
+}
+input:hover {
+  filter: brightness(95%);
+}
+/*.letterImg:hover #Itxt {
+  display: block;
+}*/
+.nameContainer {
+  text-align: center;
+  margin: auto;
+}
+.dropdownTxt {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: .01;
+  font-weight: bolder;
+  font-size: 30;
+  margin:-45 auto;
+  display: none;
+  color: white;
+}
+
+
+input:focus {
+    outline:none !important;
+}
+
+ #K {
+   width: 103.19;
+ }
+
+ #I {
+   width: 49.93;
+ }
+
+ #E {
+   width: 96.25;
+ }
+
+ #R {
+   width: 107.9;
+ }
+
+
+ #A {
+   width: 104.85;
+ }
+
+
+ #N {
+   width: 120.38;
+ }
+
+#Ntxt {
+  margin-right: -10;
+}
+
+ #Notxt {
+   margin-top: -140;
+   margin-left: 300;
+ }
+
+ #Prtxt {
+   margin-top: 47.5;
+ }

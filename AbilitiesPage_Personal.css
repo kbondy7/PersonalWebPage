@@ -1,0 +1,85 @@
+body {
+  margin: auto;
+  background-color: white;
+  height: 100%;
+  display: block;
+}
+p {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+.footText {
+  margin: 0;
+}
+.headerLetter {
+  font-size: 50;
+  font-weight: bold;
+  margin:auto;
+  margin-left: 10;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+}
+.footer_img {
+  height: 35;
+  width: 35;
+  cursor: pointer;
+  margin: 20;
+}
+.content {
+  margin: 25 auto;
+  z-index: 2;
+}
+
+.header {
+  margin: auto;
+  display: inline-flex;
+  height: 75;
+  z-index: 3;
+  position: relative;
+  border-bottom: 1px solid rgba(0,0,0,.25);
+  width: 100%;
+}
+.headerLetterCon:hover {
+  color: #fc8b00;
+}
+.subText {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+  font-size: 15;
+  color: black;
+  text-align: center;
+  display: none;
+}
+
+.text {
+  text-align: left;
+  padding: 0 75;
+}
+
+.title {
+  padding: 0 75;
+  font-size: 40;
+}
+.textCon {
+  display: inline-block;
+  margin: auto;
+  font-size: 30;
+  width: 50%;
+  vertical-align: top;
+
+}
+.FirstLetter{
+  font-size: 75;
+  color: #fc8b00;
+}
+.img {
+  width: 500;
+  height: 660.47;
+}
+
+#K {
+  margin-left: 25;
+}

@@ -1,0 +1,95 @@
+body {
+  margin: auto;
+  background-color: white;
+  height: 100%;
+  display: block;
+}
+p {
+  font-family: 'Titillium Web', sans-serif;
+}
+.headerLetter {
+  font-size: 50;
+  font-weight: bold;
+  margin:auto;
+  margin-left: 10;
+}
+
+.content {
+  margin: 25 auto;
+  z-index: 2;
+}
+
+.header {
+  margin: auto;
+  display: inline-flex;
+  height: 75;
+  z-index: 3;
+  position: relative;
+  border-bottom: 1px solid rgba(0,0,0,.25);
+  width: 100%;
+}
+.headerLetterCon:hover {
+  color: #fc8b00;
+}
+.subText {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+  font-size: 15;
+  color: black;
+  text-align: center;
+  display: none;
+}
+
+.section {
+  display: inline-block;
+  vertical-align: top;
+  margin: auto;
+}
+.text1 {
+  margin: 0;
+  padding: 0 75;
+  text-align: left;
+
+}
+
+.textCon {
+  display: inline-block;
+  margin: 0 0 50 0;
+  font-size: 20;
+  width: 70%;
+  vertical-align: top;
+}
+.logo {
+  /*height: 266.329;
+  width: 200;*/
+  height: 250;
+  width: 300;
+  margin-top: -115;
+}
+.trumid {
+  weight: 250;
+  height: 159.2;
+  margin-left: 75;
+}
+.FirstLetter{
+  font-size: 75;
+  color: #fc8b00;
+}
+.title {
+  padding: 0 75;
+  font-size: 40;
+}
+
+
+#K {
+  margin-left: 25;
+}
+footer {
+  text-align: center;
+}
+.footer_img {
+  height: 35;
+  width: 35;
+  cursor: pointer;
+  margin: 20;
+}

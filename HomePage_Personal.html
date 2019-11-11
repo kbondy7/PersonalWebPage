@@ -1,0 +1,36 @@
+<html>
+<header>
+  <title>Home Page</title>
+  <link rel="stylesheet" type="text/css" href="HomePage_Personal2.css" />
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+</header>
+<body>
+  <div class = "container">
+    <p class = "introTxt">Hello my name is</p>
+    <div class = "nameContainer">
+      <div class="letterImg"><input type="image" name="imgbtn" onclick="goTo(this.id)" id = "K" src="Assets/KbtnWhite.png"  alt="Tool Tip"></div>
+      <div class="letterImg">
+        <input onclick="goTo(this.id)" onmouseover="Hover(this.id)" onmouseout="Hide(this.id)" type="image" name="imgbtn" id = "I" src="Assets/IbtnWhite.png"  alt="Tool Tip">
+        <p id = "Itxt"class = "dropdownTxt">nterests</p>
+      </div>
+      <div class="letterImg" onclick="goTo(this.id)">
+        <input  onmouseover="Hover(this.id)" onmouseout="Hide(this.id)" type="image" name="imgbtn" id = "E" src="Assets/EbtnWhite.png"  alt="Tool Tip">
+        <p id = "Etxt"class = "dropdownTxt">xperience</p>
+      </div>
+      <div class="letterImg">
+        <input onclick="goTo(this.id)" onmouseover="Hover(this.id)" onmouseout="Hide(this.id)" type="image" name="imgbtn" id = "R" src="Assets/RbtnWhite.png"  alt="Tool Tip">
+        <p id = "Rtxt"class = "dropdownTxt">esume</p>
+      </div>
+      <div class="letterImg">
+        <input onclick="goTo(this.id)" onmouseover="Hover(this.id)" onmouseout="Hide(this.id)" type="image" name="imgbtn" id = "A" src="Assets/AbtnWhite.png"  alt="Tool Tip">
+        <p id = "Atxt"class = "dropdownTxt">bilities</p>
+      </div>
+      <div class="letterImg">
+        <input onclick="goTo(this.id)" onmouseover="Hover(this.id)" onmouseout="Hide(this.id)" type="image" name="imgbtn" id = "N" src="Assets/NbtnWhite.png"  alt="Tool Tip">
+        <p id = "Ntxt" class = "dropdownTxt"><span id ="Notxt">otable</span><br><span id= "Prtxt">Projects</span></p>
+      </div>
+  </div>
+
+  <script src="HomePage_Personal.js"></script>
+</body>
+</html>
