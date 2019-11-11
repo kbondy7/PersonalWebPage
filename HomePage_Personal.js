@@ -18,6 +18,7 @@ function goTo(id) {
   if(id == "E") {
     window.location.href = "https://www.kieranbondy.com/Experience.html";
   }
+
   if(id == "R") {
     window.location.href = "https://www.kieranbondy.com/Resume.html";
   }
