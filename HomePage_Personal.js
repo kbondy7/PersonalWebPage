@@ -13,7 +13,7 @@ function goTo(id) {
     window.location.href = "file:///Users/kieranbondy/Desktop/NORTHWESTERN/website/HomePage_Personal.html";
   }
   if(id == "I") {
-    window.location.href = "file:///Users/kieranbondy/Desktop/NORTHWESTERN/website/InterestsPage_Personal.html";
+    window.location.href = "https://sad-galileo-416040.netlify.com/InterestsPage_Personal.html";
   }
   if(id == "E") {
     window.location.href = "file:///Users/kieranbondy/Desktop/NORTHWESTERN/website/ExperiencePage_Personal.html";
