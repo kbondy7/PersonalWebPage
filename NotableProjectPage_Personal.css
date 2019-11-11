@@ -176,12 +176,17 @@ p {
 }
 footer {
   text-align: center;
+
+}
+footer a{
+  text-decoration: none;
 }
 .footer_img {
   height: 35;
   width: 35;
   cursor: pointer;
   margin: 20;
+
 }
 .is_hidden {
   display: none;

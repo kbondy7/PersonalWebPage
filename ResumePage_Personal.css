@@ -22,6 +22,9 @@ a {
 footer {
   text-align: center;
 }
+footer a{
+  text-decoration: none;
+}
 .footer_img {
   height: 35;
   width: 35;
